@@ -52,7 +52,7 @@ const students = [
     Last: 'Kyambadde',
     id: '2017/7/Boarding'
   }
-];
+]
 
 function copyProps( propSource ) { //We don't loop. Array.map() will loop for us
   return Object.assign( {score: '', term: 0 }, propSource )
