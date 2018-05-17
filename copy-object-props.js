@@ -59,3 +59,13 @@ console.log( students.map( copyProps ) ) //array.map used.
 */
 students = students.map( student => ({...student, score:'', term:0 } ) )
 console.log( students )
+
+/*
+ *Result from all the solutions above.
+ *You can see new properties e.g score and term on each object.
+*/
+Array [
+        Object { first: "David", Last: "Wampamba", id: "2015/2/Boarding", score: "", term: 0 }, 
+        Object { first: "Moses", Last: "Opio", id: "2015/3/Day", score: "", term: 0 },
+        Object { first: "Francis", Last: "Kyambadde", id: "2017/7/Boarding", score: "", term: 0 }
+]
